@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 16px;
+}
+
+
+.box {
+  width: 200px;
+  /* flex: 1; */
+  height: 200px;
+  /* border: 2px solid black; */
+  background: black;
+}
+
+.container :nth-child(even) {
+  background: lightcoral;
+}
